@@ -26,4 +26,3 @@ My goal is not to stay on the surface of security concepts, but to deconstruct t
 ## 🛠️ Current Research
 * **Case Study 01:** Ransomware Foundations & The Mathematics of Encryption `[IN PROGRESS]`
 * **Core Topic:** Windows Process Lineage & Parent-Child Relationship Anomalies `[LEARNING]`
-* 
