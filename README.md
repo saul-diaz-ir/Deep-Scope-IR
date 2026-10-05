@@ -1,28 +1,30 @@
-# Granular Grit
+# Deep Scope IR
 
-> **Cybersecurity Student & Technical Researcher | Focused on Deep Understanding of Threats & Windows Internals | Autodidactic Learning Path | B2 English**
+**Incident Response & Forensic Practitioner**  
+*Focused on Linux Telemetry, Living off the Land (LotL) Detection, and Stealth Intrusion Analysis.*
 
 ---
 
-## 🧠 Research Framework: The Atomic Approach
+## 🧠 Research & DFIR Framework
 
-My goal is not to stay on the surface of security concepts, but to deconstruct threats to their fundamental components to achieve **True Understanding**.
+My objective is to move beyond high-level security concepts by dissecting threats down to their fundamental telemetry and OS interactions.
 
-* **Root Cause Analysis:** I don't stop at high-level definitions; I investigate how threats interact with the Operating System and its native tools (LotL).
-* **Telemetry Verification:** Every concept I study is tested against real data. I look for the "digital fingerprint": Event IDs, Registry modifications, and File System anomalies.
-* **Foundational Logic:** Before analyzing a specific attack, I study the underlying principles—from the mathematics of a cipher to the architecture of Windows processes.
-* **Evidence-Based Learning:** My research is grounded in documentation, reproducible labs, and forensic evidence.
+* **Anchor Event & Session Window Isolation:** Reconstructing attack timelines by isolating initial access vectors and correlating session activity within logs and memory.
+* **Telemetry Verification:** Every investigation is grounded in raw forensic data—analyzing process trees, file system anomalies, volatile memory artifacts, and authentication records.
+* **Living off the Land (LotL) Analysis:** Scrutinizing the misuse of native binaries and administrative tools to identify defense evasion and unauthorized persistence.
+* **Evidence-Driven Detection:** Transforming forensic findings into actionable, scalable defense logic through custom Sigma rules and YARA signatures.
 
 ---
 
 ## 📂 Repository Structure
 
-* **/Laboratory**: Raw notes, Event Logs, and analysis from ongoing learning sessions.
-* **/Deep-Dives**: Detailed research papers on specific threats or mechanisms once fully understood.
-* **/Methodology**: Documentation of my learning process and research framework.
+* `/Investigations`: Technical write-ups and post-mortems of simulated intrusions and ransomware scenarios.
+* `/Telemetry-Artifacts`: Log samples, memory extraction notes, and evidence collected during lab triage.
+* `/Detections`: Custom Sigma rules, YARA signatures, and detection logic derived from incident research.
 
 ---
 
-## 🛠️ Current Research
-* **Case Study 01:** Ransomware Foundations & The Mathematics of Encryption `[IN PROGRESS]`
-* **Core Topic:** Windows Process Lineage & Parent-Child Relationship Anomalies `[LEARNING]`
+## 🔬 Current Research & Focus
+
+* **Case Study 04.2:** *Linux Double-Extortion Ransomware: Telemetry Analysis, Persistence Vectors, and Volumetric Crypto Evasion* [IN PROGRESS]
+* **Core Topic:** Linux Threat Hunting — Identifying Obfuscated Command Lines & In-Memory Execution
